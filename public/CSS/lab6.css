@@ -1,0 +1,200 @@
+h1
+{
+    font-family: 'Sansita Swashed', cursive;
+}
+li {
+    font-family: 'Concert One', cursive;
+}
+p
+{ 
+    font-family: 'Concert One', cursive;
+    
+}
+.fa-check-circle
+{
+    color: black;
+}
+ul
+{
+    list-style: none;  
+}
+
+.wholebody
+{
+    overflow: auto;
+}
+.bodymain
+{
+    margin: 0 auto;
+}
+
+.beeimage
+{
+    display: block;
+    padding-left: 1%;
+    padding-bottom: 0.5%; 
+    width: 250px;
+    height:auto;
+    
+}
+
+.Bigpic 
+{
+    display: block;
+    
+    width: 100%;
+    height:auto;
+    padding-left: 13px;
+}
+.bodyleft 
+{
+    grid-area: body-left;
+}
+
+.bodyright
+ {
+    grid-area: body-right;
+    
+}
+.bodyparts
+ {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'body-left body-right';
+    column-gap: 100px;
+}
+
+.iphonepic
+ {
+    display: flex;
+    justify-content: center;
+}
+.pics
+ {
+    display: block;
+ 
+    width: auto;
+    height:320px;
+    padding:1% ;
+    
+}
+.downloadpart
+{
+    display: flex;
+    justify-content: center;
+}
+
+.downloadbutton
+{
+    display: block;
+ 
+    width: auto;
+    height:50px;
+    
+}
+
+
+
+@media screen and (max-width: 1024px)
+{
+    .beeimage
+    {
+        display: block;
+        width: 150px;
+        height:auto;
+        padding: 1%;
+
+    }
+    .Bigpic {
+        display: block;
+        width: 100%;
+        height:auto;
+        padding-left: 1%;
+        
+    }
+    .bodyparts {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        'body-left'
+        'body-right';
+        column-gap: 10px;
+    }
+    
+    .iphonepic {
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    .downloadpart
+    {
+    display: flex;
+    justify-content: flex-start;
+    }
+
+    
+}
+
+@media screen and (max-width: 512px){
+
+    .beeimage
+    {
+        display: block;
+        height:auto;
+        text-align: center;
+        width: 150px;
+        padding: 1%;
+    }
+    .Bigpic {
+        display: block;
+        width: 100%;
+        height:auto;
+        padding: 1%;
+    }
+    .bodyparts {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        'body-left'
+        'body-right';
+        column-gap: 10px;
+    }
+    
+    .pics 
+    {
+        display: block;
+        width: auto;
+        height:150px;
+        padding: 1%;
+    }
+    ul
+    {
+        display: block;
+    }
+    .downloadbutton {
+        display: block;
+        width: auto;
+        height:50px;
+        padding: 1%;
+    }
+    .downloadpart
+    {
+    display: flex;
+    justify-content: flex-start;
+    }
+
+}
+.headnav{
+    display: block;
+    width: 200px;
+    height:auto;
+    object-fit: contain;
+    text-align: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%; 
+}
+.form-link{
+color:white;
+
+}
