@@ -1,0 +1,28 @@
+{
+  "name": "iotlab9",
+  "version": "1.0.0",
+  "description": "Lab 9 Zay",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zayedlol/IOTLAB9.git"
+  },
+  "keywords": [
+    "ZAY"
+  ],
+  "author": "Zay Fir",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zayedlol/IOTLAB9/issues"
+  },
+  "homepage": "https://github.com/Zayedlol/IOTLAB9#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.15",
+    "nodeman": "^1.1.2",
+    "nodemon": "^2.0.6"
+  }
+}
